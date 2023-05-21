@@ -1,0 +1,42 @@
+body {
+    background-image: url("/assets/images/pexels-moose-photos-1037992.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  
+
+ 
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  @media (max-width: 600px) {
+    table {
+      font-size: 12px;
+    }
+  }
+
+  .input{
+    border: 1px  solid saddlebrown ;
+  }
+
+  textarea, input { 
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #cecece;
+    height: 40px;
+    width: 50%;
+  }
+  
+ 

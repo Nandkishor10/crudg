@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd Application</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> CRUD APPLICATION</h1>
+        <form id="myForm">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" class="form-control" id="phoneNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email<i class="bi bi-border-bottom"></i></label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+     
+          
+          <button type="submit" class="btn btn-primary" id="addBtn">Add</button>
+          <button type="submit" class="btn btn-success d-none" id="updateBtn">Update</button>
+          <button type="button" class="btn btn-secondary d-none" id="cancelBtn">Cancel</button>
+        </form>
+        <table id="dataTable" class="table">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Phone Number</th>
+              <th>Email</th>
+              <th>Edit/Delete Operation</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      
+      
+      
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>
